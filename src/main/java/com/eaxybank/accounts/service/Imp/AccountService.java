@@ -22,7 +22,7 @@ import java.util.Random;
 public class AccountService implements IAccountService {
 
 
-    private AccountsRepository accountsRepository;;
+    private AccountsRepository accountsRepository;
     private CustomerRepository customerRepository;
     @Override
     public void createCustomer(CustomerDto customerDto) {
